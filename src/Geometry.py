@@ -1,5 +1,5 @@
-from help import CellType, Line, Vertice, Triangle
-from typing import Dict, Tuple, List
+from help import Vertice, Triangle
+from typing import List
 
 
 class Geometry:

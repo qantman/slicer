@@ -1,6 +1,5 @@
-from help import CellType, Line, Vertice, Triangle
-from typing import Dict, Tuple, List
-
+from help import CellType, Line
+from typing import Tuple, List
 
 
 class Canvas:

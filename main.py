@@ -1,7 +1,5 @@
-from Slicer import Slicer
-from OBJGeometry import OBJGeometry
-
-
+from src.Slicer import Slicer
+from src.OBJGeometry import OBJGeometry
 
 if __name__ == "__main__":
     geometry = OBJGeometry('test.obj')
@@ -9,4 +7,6 @@ if __name__ == "__main__":
     layers = slicer.slice(thickness = 1.0)
     for lay in layers:
         str = lay.__str__()
+        print("===============================")
         print(str)
+        print("===============================")

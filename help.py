@@ -1,6 +1,6 @@
 from enum import Enum
 from enum import Enum
-from typing import Dict, Tuple, List
+from typing import Tuple
 
 Line = Tuple[Tuple[float, float],
              Tuple[float, float]]
