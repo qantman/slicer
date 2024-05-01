@@ -1,4 +1,4 @@
-from Geometry import Geometry
+from src.Geometry import Geometry
 
 
 class OBJGeometry(Geometry):
